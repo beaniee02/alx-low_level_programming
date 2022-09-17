@@ -25,7 +25,7 @@ int main(void)
 					putchar(i);
 					putchar(d);
 					putchar(n);
-					
+
 					if (i == '7' && d == '8' && n == '9')
 						continue;
 					putchar(',');
@@ -34,6 +34,7 @@ int main(void)
 			}
 		}
 	}
+	
 	putchar('\n');
 	return (0);
-}	
+}
