@@ -12,9 +12,9 @@ int main(void)
 {
 	int i, d;
 
-	for (i = '0'; i <= 99; i++)
+	for (i = 0; i <= 99; i++)
 	{
-		for (d = '0'; d <= 99; d++)
+		for (d = 0; d <= 99; d++)
 		{
 			if (i < d)
 			{
@@ -25,9 +25,10 @@ int main(void)
 				putchar((d % 10) + '0');
 
 				if (i != 98 || d != 99)
-					continue;
-				putchar(',');
-				putchar(' ');
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
