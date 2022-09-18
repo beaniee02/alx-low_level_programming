@@ -4,6 +4,8 @@
 /**
  * main -check the code
  *
+ * print_alphabet - prints lower case alphabets
+ *
  * Description: Prints lowercase alphabets
  *
  * Return: Always 0
