@@ -1,0 +1,1 @@
+using pointers and arrays
