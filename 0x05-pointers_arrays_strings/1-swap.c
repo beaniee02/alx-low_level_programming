@@ -3,8 +3,8 @@
 
 /**
  * swap_int - swaps the value of two integers
- * @a - first value
- * @b - second value
+ * a - first value
+ * b - second value
  *
  * Return: nothing
  **/
