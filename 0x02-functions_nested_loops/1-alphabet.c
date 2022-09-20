@@ -2,13 +2,9 @@
 
 
 /**
- * main -check the code
- *
- * print_alphabet - prints lower case alphabets
- *
- * Description: Prints lowercase alphabets
- *
- * Return: Always 0
+ * print_alphabet - Check description
+ * Description: It prints the alphabet in lowercase followed by a new line
+ * Return: Nothing.
  */
 void print_alphabet(void)
 {
